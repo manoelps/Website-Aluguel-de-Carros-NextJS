@@ -1,0 +1,7 @@
+build
+coverage
+.next
+docker-compose.yml
+node_modules
+package.json
+README.md
