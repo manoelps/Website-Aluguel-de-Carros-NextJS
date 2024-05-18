@@ -6,19 +6,20 @@ import { FaCalendarAlt } from 'react-icons/fa';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 import { addDays, format } from 'date-fns';
-import { DateRange } from 'react-date-range';
+import { DateRange, Range } from 'react-date-range';
 
 import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 
 const DateSelection = () => {
-  const [date, setDate] = useState([
+  const [date, setDate] = useState<Range[]>([
     {
       startDate: new Date(),
-      endDate: null,
+      endDate: undefined,
       key: 'selection'
     }
   ]);
+
   return (
     <Menu as="div" className="w-full h-full flex xl:flex-row">
       <div className="relative flex-1">
@@ -30,14 +31,18 @@ const DateSelection = () => {
           </div>
           <div className="flex items-center gap-x-3 xl:ml-6">
             <div className="text-[13px] font-medium text-secondary">
-              {format(date[0].startDate, 'dd/MM/yyyy')}
+              {date[0].startDate ? format(date[0].startDate, 'dd/MM/yyyy') : ''}
             </div>
             <FaArrowRightLong className="text-accent text-[12px]" />
             <div className="text-[13px] font-medium text-secondary">
               {date[0].endDate ? (
                 <div>{format(date[0].endDate, 'dd/MM/yyyy')}</div>
               ) : (
-                <div>{format(date[0].startDate, 'dd/MM/yyyy')}</div>
+                <div>
+                  {date[0].startDate
+                    ? format(date[0].startDate, 'dd/MM/yyyy')
+                    : ''}
+                </div>
               )}
             </div>
           </div>
