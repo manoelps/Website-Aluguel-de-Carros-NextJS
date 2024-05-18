@@ -1,6 +1,10 @@
 # Website-Aluguel-de-Carros-NextJS
 
-Site para aluguel de automóveis criado com Next.JS v14.2.3, utilizando [Next.js](https://nextjs.org/)
+Site para aluguel de automóveis Usando Next.JS v14.2.3, Tailwind CSS e Framer Motion
+
+[Next.js](https://nextjs.org/)
+[Tailwind](https://tailwindcss.com/)
+[Framer Motion](https://www.framer.com/motion/)
 
 ## Getting Started
 
@@ -19,3 +23,16 @@ bun dev
 Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
 ##
+
+<video controls src="apresentacao.mp4" title="Title"></video>
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+
+Caso alquém queria criar o mesmo design, seguindo um tutorial em vídeo: https://www.youtube.com/watch?v=iWAUAOqCHks
