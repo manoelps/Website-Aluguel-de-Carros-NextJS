@@ -1,3 +1,4 @@
+import { SearchContextProvider } from '@/context/search';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -5,8 +6,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Site para aluguel de automóveis criado com Next.JS v14.2.3',
-  description: 'Site para aluguel de automóveis criado com Next.JS v14.2.3'
+  title: 'Criado com Next.JS v14.2.3 - Manoel Pereira dos Santos',
+  description: 'Criado com Next.JS v14.2.3 - Manoel Pereira dos Santos'
 };
 
 export default function RootLayout({
@@ -16,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <SearchContextProvider>{children}</SearchContextProvider>
+      </body>
     </html>
   );
 }
