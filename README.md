@@ -24,8 +24,6 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o
 
 ##
 
-https://github.com/manoelps/Website-Aluguel-de-Carros-NextJS/assets/13986633/7144fb82-c97e-4513-aea0-1866eb11c962
-
 ![alt text](image.png)
 
 ![alt text](image-1.png)
