@@ -24,7 +24,7 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o
 
 ##
 
-<video controls src="apresentacao.mp4" title="Title"></video>
+https://github.com/manoelps/Website-Aluguel-de-Carros-NextJS/assets/13986633/7144fb82-c97e-4513-aea0-1866eb11c962
 
 ![alt text](image.png)
 
@@ -35,4 +35,4 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o
 ![alt text](image-3.png)
 
 
-Caso alquém queria criar o mesmo design, seguindo um tutorial em vídeo: https://www.youtube.com/watch?v=iWAUAOqCHks
+Caso alguém queria criar o mesmo design, seguindo um tutorial em vídeo: https://www.youtube.com/watch?v=iWAUAOqCHks
